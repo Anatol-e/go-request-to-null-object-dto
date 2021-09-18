@@ -14,8 +14,8 @@ can convert any json request to DTO without pointers.
 
 ```
 type SomeRequest struct {
-    Data  string `json:"data"`  
-    Value int64  `json:"value"`  
+    Data  string  `json:"data"`  
+    Value *int64  `json:"value"`  
 }
 ```
 
