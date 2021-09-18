@@ -33,7 +33,7 @@ type SomeDTO struct {
 * Use it by using converting method:
 
 ```
-ConvertToDTO(jsonObject, &dtoObject)
+convertor.ConvertToDTO(jsonObject, &dtoObject)
 fmt.Println(dtoObject.Data.String)
 ```
 
