@@ -47,7 +47,7 @@ type SomeDTO struct {
 }
 ```
 
-Also could be nullable
+Also can be nullable
 
 ```
 type SomeDTO struct {
@@ -59,7 +59,7 @@ type SomeDTO struct {
 
 ```
 type SomeDTO struct {
-    MyData []string `dto:"data"`    
+    MyData []sql.NullString `dto:"data"`    
 }
 ```
 
