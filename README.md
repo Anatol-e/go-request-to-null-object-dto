@@ -25,8 +25,8 @@ type SomeRequest struct {
 
 ```
 type SomeDTO struct {
-    MyData  string `dto:"data"`    
-    MyValue string `dto:"value"`    
+    MyData  sql.NullString `dto:"data"`    
+    MyValue sql.NullInt64  `dto:"value"`    
 }
 ```
 
