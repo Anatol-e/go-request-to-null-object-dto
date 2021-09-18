@@ -8,7 +8,7 @@ structure without pointers after request in golang.
 ## How to use
 
 ```ConvertToDTO(jsonObject interface{}, dtoObject interface{}) error```
-cant convert any json request to DTO without pointers.
+can convert any json request to DTO without pointers.
 
 * Create JSON object
 
