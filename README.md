@@ -10,6 +10,8 @@ structure without pointers after request in golang.
 ```ConvertToDTO(jsonObject interface{}, dtoObject interface{}) error```
 can convert any json request to DTO without pointers.
 
+In go.mod import library: ```require github.com/Anatol-e/go-request-to-null-object-dto latest```
+
 * Create JSON object
 
 ```
